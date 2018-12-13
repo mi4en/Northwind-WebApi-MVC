@@ -1,0 +1,12 @@
+C:\Test Projects\ProjectFourth\Northwind-WebApi-MVC\ProjectFourthServices\bin\Release\ProjectFourthServices.dll
+C:\Test Projects\ProjectFourth\Northwind-WebApi-MVC\ProjectFourthServices\bin\Release\ProjectFourthServices.pdb
+C:\Test Projects\ProjectFourth\Northwind-WebApi-MVC\ProjectFourthServices\bin\Release\DBAccessLayer.dll
+C:\Test Projects\ProjectFourth\Northwind-WebApi-MVC\ProjectFourthServices\bin\Release\EntityFramework.dll
+C:\Test Projects\ProjectFourth\Northwind-WebApi-MVC\ProjectFourthServices\bin\Release\DBAccessLayer.pdb
+C:\Test Projects\ProjectFourth\Northwind-WebApi-MVC\ProjectFourthServices\bin\Release\DBAccessLayer.dll.config
+C:\Test Projects\ProjectFourth\Northwind-WebApi-MVC\ProjectFourthServices\bin\Release\EntityFramework.xml
+C:\Test Projects\ProjectFourth\Northwind-WebApi-MVC\ProjectFourthServices\obj\Release\ProjectFourthServices.csprojAssemblyReference.cache
+C:\Test Projects\ProjectFourth\Northwind-WebApi-MVC\ProjectFourthServices\obj\Release\ProjectFourthServices.csproj.CoreCompileInputs.cache
+C:\Test Projects\ProjectFourth\Northwind-WebApi-MVC\ProjectFourthServices\obj\Release\ProjectFourthServices.csproj.CopyComplete
+C:\Test Projects\ProjectFourth\Northwind-WebApi-MVC\ProjectFourthServices\obj\Release\ProjectFourthServices.dll
+C:\Test Projects\ProjectFourth\Northwind-WebApi-MVC\ProjectFourthServices\obj\Release\ProjectFourthServices.pdb

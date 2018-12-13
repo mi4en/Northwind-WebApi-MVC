@@ -1,0 +1,12 @@
+C:\Test Projects\ProjectFourth\Northwind-WebApi-MVC\DBAccessLayer\bin\Debug\DBAccessLayer.dll.config
+C:\Test Projects\ProjectFourth\Northwind-WebApi-MVC\DBAccessLayer\bin\Debug\DBAccessLayer.dll
+C:\Test Projects\ProjectFourth\Northwind-WebApi-MVC\DBAccessLayer\bin\Debug\DBAccessLayer.pdb
+C:\Test Projects\ProjectFourth\Northwind-WebApi-MVC\DBAccessLayer\bin\Debug\EntityFramework.dll
+C:\Test Projects\ProjectFourth\Northwind-WebApi-MVC\DBAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Test Projects\ProjectFourth\Northwind-WebApi-MVC\DBAccessLayer\bin\Debug\EntityFramework.xml
+C:\Test Projects\ProjectFourth\Northwind-WebApi-MVC\DBAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Test Projects\ProjectFourth\Northwind-WebApi-MVC\DBAccessLayer\obj\Debug\DBAccessLayer.csproj.CoreCompileInputs.cache
+C:\Test Projects\ProjectFourth\Northwind-WebApi-MVC\DBAccessLayer\obj\Debug\DBAccessLayer.csproj.CopyComplete
+C:\Test Projects\ProjectFourth\Northwind-WebApi-MVC\DBAccessLayer\obj\Debug\DBAccessLayer.dll
+C:\Test Projects\ProjectFourth\Northwind-WebApi-MVC\DBAccessLayer\obj\Debug\DBAccessLayer.pdb
+C:\Test Projects\ProjectFourth\Northwind-WebApi-MVC\DBAccessLayer\obj\Debug\DBAccessLayer.csprojAssemblyReference.cache
