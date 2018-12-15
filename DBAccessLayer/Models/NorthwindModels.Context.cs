@@ -28,5 +28,6 @@ namespace DBAccessLayer.Models
         public virtual DbSet<Customers> Customers { get; set; }
         public virtual DbSet<Order_Details> Order_Details { get; set; }
         public virtual DbSet<Orders> Orders { get; set; }
+        public virtual DbSet<Products> Products { get; set; }
     }
 }

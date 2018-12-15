@@ -18,5 +18,6 @@ namespace ProjectFourthMVC.Models
         public string Country { get; set; }
         public string Phone { get; set; }
         public string Fax { get; set; }
+        public virtual ICollection<OrderViewModel> Orders { get; set; }
     }
 }

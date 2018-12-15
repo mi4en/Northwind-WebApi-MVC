@@ -1,12 +1,11 @@
-﻿using DBAccessLayer.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace WebApi.Models
+namespace ProjectFourthMVC.Models
 {
-    public class OrderModel
+    public class OrderViewModel
     {
         public int OrderID { get; set; }
         public string CustomerID { get; set; }
@@ -22,6 +21,6 @@ namespace WebApi.Models
         public string ShipRegion { get; set; }
         public string ShipPostalCode { get; set; }
         public string ShipCountry { get; set; }
-        public virtual Customers Customers { get; set; }
+        public virtual CustomerViewModel Customers { get; set; }
     }
 }

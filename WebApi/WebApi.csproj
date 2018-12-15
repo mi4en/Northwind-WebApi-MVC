@@ -209,7 +209,9 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\CustomerModel.cs" />
+    <Compile Include="Models\OrderDetailsModel.cs" />
     <Compile Include="Models\OrderModel.cs" />
+    <Compile Include="Models\ProductsModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
