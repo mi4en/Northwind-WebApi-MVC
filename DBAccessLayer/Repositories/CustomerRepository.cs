@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Data.Entity;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -27,7 +28,8 @@ namespace DBAccessLayer.Repositories
                     //}
                     //return customersList;
 
-                    return customersList = db.Customers.OrderBy(x => x.CustomerID).ToList();
+                    customersList = db.Customers.Include(o => o.Orders).OrderBy(x => x.CustomerID).ToList();
+                    return customersList;
                 }
                 catch (Exception ex)
                 {
@@ -49,7 +51,8 @@ namespace DBAccessLayer.Repositories
 
                     //return customerRecord;
 
-                    return db.Customers.FirstOrDefault(c => c.CustomerID == id);
+                    var customer = db.Customers.FirstOrDefault(c => c.CustomerID == id);
+                    return customer;
                 }
                 catch (Exception ex)
                 {
@@ -66,16 +69,19 @@ namespace DBAccessLayer.Repositories
             {
                 try
                 {
-                    var query = from o in db.Orders
-                                orderby o.OrderID
-                                where o.CustomerID == id
-                                select o;
+                    //var query = from o in db.Orders.Include(p => p.Order_Details)
+                    //            orderby o.OrderID
+                    //            where o.CustomerID == id
+                    //            select o;
 
-                    foreach (var order in query)
-                    {
-                        ordersList.Add(order);
-                    }
-                    return ordersList;
+                    //foreach (var order in query)
+                    //{
+                    //    ordersList.Add(order);
+                    //}
+                    //return ordersList;
+
+                    var orders = db.Orders.Include(o => o.Customers).Include(o => o.Order_Details).Where(o => o.CustomerID == id).ToList();
+                    return orders;
                    
                 }
                 catch (Exception ex)

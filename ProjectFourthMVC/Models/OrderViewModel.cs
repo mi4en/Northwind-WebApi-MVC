@@ -22,5 +22,6 @@ namespace ProjectFourthMVC.Models
         public string ShipPostalCode { get; set; }
         public string ShipCountry { get; set; }
         public virtual CustomerViewModel Customers { get; set; }
+        public virtual ICollection<OrderDetailsViewModel> OrderDetails { get; set; }
     }
 }

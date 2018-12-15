@@ -24,6 +24,7 @@ namespace WebApi.Controllers
             try
             {
                 var customers = _customerService.GetAllCustomers();
+
                 foreach (var customer in customers)
                 {
                     customerModel.Add(new CustomerModel
@@ -38,7 +39,8 @@ namespace WebApi.Controllers
                         PostalCode = customer.PostalCode,
                         Country = customer.Country,
                         Phone = customer.Phone,
-                        Fax = customer.Fax
+                        Fax = customer.Fax,
+                        OrdersCount = customer.Orders.Count
                     });
                 }
 
@@ -89,13 +91,14 @@ namespace WebApi.Controllers
 
             try
             {
-                var orders = _customerService.GetCustomerOrders(id);
+                var orders = _customerService.GetCustomerOrders(id);               
+
                 foreach(var order in orders)
                 {
                     orderModel.Add(new OrderModel
                     {
                         CustomerID = order.CustomerID,
-                        OrderID = order.OrderID
+                        OrderID = order.OrderID                       
                     });
                 }
                 return orderModel;

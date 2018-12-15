@@ -6,7 +6,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>C:\Test Projects\ProjectFourth</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Test Projects\ProjectFourth\Publish</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="Areas/HelpPage/HelpPage.css">
@@ -85,13 +85,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/07/2018 00:35:16</publishTime>
     </File>
     <File Include="bin/DBAccessLayer.dll">
-      <publishTime>12/12/2018 21:37:03</publishTime>
+      <publishTime>12/15/2018 22:51:52</publishTime>
     </File>
     <File Include="bin/DBAccessLayer.dll.config">
       <publishTime>12/12/2018 13:32:05</publishTime>
     </File>
     <File Include="bin/DBAccessLayer.pdb">
-      <publishTime>12/12/2018 21:37:03</publishTime>
+      <publishTime>12/15/2018 22:51:52</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>06/07/2018 11:03:48</publishTime>
@@ -115,10 +115,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/27/2018 17:59:08</publishTime>
     </File>
     <File Include="bin/ProjectFourthServices.dll">
-      <publishTime>12/12/2018 21:37:05</publishTime>
+      <publishTime>12/15/2018 22:51:52</publishTime>
     </File>
     <File Include="bin/ProjectFourthServices.pdb">
-      <publishTime>12/12/2018 21:37:05</publishTime>
+      <publishTime>12/15/2018 22:51:52</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>08/08/2018 05:38:48</publishTime>
@@ -355,10 +355,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/07/2018 00:35:16</publishTime>
     </File>
     <File Include="bin/WebApi.dll">
-      <publishTime>12/12/2018 21:37:10</publishTime>
+      <publishTime>12/15/2018 22:52:49</publishTime>
     </File>
     <File Include="bin/WebApi.pdb">
-      <publishTime>12/12/2018 21:37:10</publishTime>
+      <publishTime>12/15/2018 22:52:49</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>01/23/2014 12:57:34</publishTime>

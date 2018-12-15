@@ -23,5 +23,6 @@ namespace WebApi.Models
         public string ShipPostalCode { get; set; }
         public string ShipCountry { get; set; }
         public virtual Customers Customers { get; set; }
+        public virtual ICollection<Order_Details> Order_Details { get; set; }
     }
 }

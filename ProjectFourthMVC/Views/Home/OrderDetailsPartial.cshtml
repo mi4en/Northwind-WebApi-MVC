@@ -1,0 +1,28 @@
+﻿@model ICollection<ProjectFourthMVC.Models.OrderDetailsViewModel>
+@*@model ProjectFourthMVC.Models.OrderDetailsViewModel*@
+
+<div class="tableinner">
+    <div class="rowinner">
+        <div class="cellinner single">
+            <table>
+                <tr>
+                    <th class="bold">@Html.DisplayNameFor(model => Model.FirstOrDefault().Products)</th>
+                    <th class="bold">@Html.DisplayNameFor(model => Model.FirstOrDefault().Quantity)</th>
+                    <th class="bold">@Html.DisplayNameFor(model => Model.FirstOrDefault().UnitPrice)</th>
+                    <th class="bold">@Html.DisplayNameFor(model => Model.FirstOrDefault().Discount)</th>
+                    <th class="bold">Subtotal</th>
+                </tr>
+                @foreach (ProjectFourthMVC.Models.OrderDetailsViewModel line in Model)
+                {
+                    <tr>
+                        <td>@line.Products.ProductName</td>
+                        <td class="alignright">@line.Quantity</td>
+                        <td class="alignright">@line.UnitPrice</td>
+                        <td class="alignright">@line.Discount</td>
+                        <td class="alignright">@ProjectFourthMVC.Controllers.HomeController.getOrderDetailTotal(line)</td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+</div>

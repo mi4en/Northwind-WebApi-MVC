@@ -1,0 +1,32 @@
+﻿@model IEnumerable<ProjectFourthMVC.Models.OrderViewModel>
+
+@{
+    ViewBag.Title = "Orders";
+}
+
+<h2>Orders</h2>
+
+<table class="table table-bordered table-striped">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.OrderID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerID)
+        </th>        
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.OrderID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomerID)
+        </td>    
+    </tr>
+    <tr>
+        @Html.Partial("OrderDetailsPartial", item.OrderDetails)
+    </tr>
+}
+</table>

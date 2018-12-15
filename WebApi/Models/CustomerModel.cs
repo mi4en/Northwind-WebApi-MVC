@@ -8,6 +8,11 @@ namespace WebApi.Models
 {
     public class CustomerModel
     {
+        public CustomerModel()
+        {
+            this.Orders = new HashSet<Orders>();
+        }
+
         public string CustomerID { get; set; }
         public string CompanyName { get; set; }
         public string ContactName { get; set; }
@@ -19,6 +24,7 @@ namespace WebApi.Models
         public string Country { get; set; }
         public string Phone { get; set; }
         public string Fax { get; set; }
+        public int OrdersCount { get; set; }
         public virtual ICollection<Orders> Orders { get; set; }
     }
 }
